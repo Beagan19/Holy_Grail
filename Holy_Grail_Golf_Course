@@ -1,0 +1,245 @@
+
+import random
+play = input(
+    "Welcome to Holy Grail Golf Course! To play you will choose a club - Driver (125 - 250 yds), Iron (75 - 200 yds), or Putter (1 - 25 yds). Are you ready to tee off?")
+
+
+# Hole 1
+yards = 279
+swing_count = 0
+while yards > 0:
+    club_choice = input("Choose your club: Driver, Iron, or Putter")
+    if club_choice == "Driver":
+            swing = random.randint(125, 251)
+            yards = abs(yards - swing)
+            print(yards)
+
+        elif club_choice == "Iron":
+            swing = random.randint(75, 201)
+            yards = abs(yards - swing)
+            print(yards)
+
+        elif club_choice == "Putter":
+            swing = random.randint(1, 26)
+            yards = abs((yards - swing) * 3)
+            print(yards)
+        else:
+            try_again = input(
+                "Invalid choice. Please choose Driver, Iron, or Putter")
+        swing_count = swing_count + 1
+
+# Hole 2
+yards = 188
+swing_count = 0
+while yards != 0:
+    club_choice = input("Choose your club: Driver, Iron, or Putter")
+    club_choice.upper()
+    if club_choice == "Driver":
+            swing = random.randint(125, 251)
+            yards = abs(yards - swing)
+            print(yards)
+
+    elif club_choice == "Iron":
+            swing = random.randint(75, 201)
+            yards = abs(yards - swing)
+            print(yards)
+
+    elif club_choice == "Putter":
+            swing = random.randint(1, 26)
+            yards = abs((yards - swing) * 3)
+            print(yards)
+    else:
+            try_again = input(
+                "Invalid choice. Please choose Driver, Iron, or Putter")
+    swing_count = swing_count + 1
+    print(swing_count)
+
+
+# Hole 3
+yards = 111
+swing_count = 0
+while yards != 0:
+    club_choice = input("Choose your club: Driver, Iron, or Putter")
+    club_choice.upper()
+    if club_choice == "Driver":
+            swing = random.randint(125, 251)
+            yards = abs(yards - swing)
+            print(yards)
+
+    elif club_choice == "Iron":
+            swing = random.randint(75, 201)
+            yards = abs(yards - swing)
+            print(yards)
+
+    elif club_choice == "Putter":
+            swing = random.randint(1, 26)
+            yards = abs((yards - swing) * 3)
+            print(yards)
+    else:
+            try_again = input(
+                "Invalid choice. Please choose Driver, Iron, or Putter")
+    swing_count = swing_count + 1
+    print(swing_count)
+
+
+# Hole 4
+yards = 162
+swing_count = 0
+while yards != 0:
+    club_choice = input("Choose your club: Driver, Iron, or Putter")
+    club_choice.upper()
+    if club_choice == "Driver":
+            swing = random.randint(125, 251)
+            yards = abs(yards - swing)
+            print(yards)
+
+    elif club_choice == "Iron":
+            swing = random.randint(75, 201)
+            yards = abs(yards - swing)
+            print(yards)
+
+    elif club_choice == "Putter":
+            swing = random.randint(1, 26)
+            yards = abs((yards - swing) * 3)
+            print(yards)
+    else:
+            try_again = input(
+                "Invalid choice. Please choose Driver, Iron, or Putter")
+    swing_count = swing_count + 1
+    print(swing_count)
+
+
+# Hole 5
+yards = 275
+swing_count = 0
+while yards != 0:
+    club_choice = input("Choose your club: Driver, Iron, or Putter")
+    club_choice.upper()
+    if club_choice == "Driver":
+            swing = random.randint(125, 251)
+            yards = abs(yards - swing)
+            print(yards)
+
+    elif club_choice == "Iron":
+            swing = random.randint(75, 201)
+            yards = abs(yards - swing)
+            print(yards)
+
+    elif club_choice == "Putter":
+            swing = random.randint(1, 26)
+            yards = abs((yards - swing) * 3)
+            print(yards)
+    else:
+            try_again = input(
+                "Invalid choice. Please choose Driver, Iron, or Putter")
+    swing_count = swing_count + 1
+    print(swing_count)
+
+
+# Hole 6
+yards = 308
+swing_count = 0
+while yards != 0:
+    club_choice = input("Choose your club: Driver, Iron, or Putter")
+    club_choice.upper()
+    if club_choice == "Driver":
+            swing = random.randint(125, 251)
+            yards = abs(yards - swing)
+            print(yards)
+
+    elif club_choice == "Iron":
+            swing = random.randint(75, 201)
+            yards = abs(yards - swing)
+            print(yards)
+
+    elif club_choice == "Putter":
+            swing = random.randint(1, 26)
+            yards = abs((yards - swing) * 3)
+            print(yards)
+    else:
+            try_again = input(
+                "Invalid choice. Please choose Driver, Iron, or Putter")
+    swing_count = swing_count + 1
+    print(swing_count)
+
+
+# Hole 7
+yards = 108
+swing_count = 0
+while yards != 0:
+    club_choice = input("Choose your club: Driver, Iron, or Putter")
+    club_choice.upper()
+    if club_choice == "Driver":
+            swing = random.randint(125, 251)
+            yards = abs(yards - swing)
+            print(yards)
+
+    elif club_choice == "Iron":
+            swing = random.randint(75, 201)
+            yards = abs(yards - swing)
+            print(yards)
+
+    elif club_choice == "Putter":
+            swing = random.randint(1, 26)
+            yards = abs((yards - swing) * 3)
+            print(yards)
+    else:
+            try_again = input(
+                "Invalid choice. Please choose Driver, Iron, or Putter")
+    swing_count = swing_count + 1
+    print(swing_count)
+
+
+# Hole 8
+yards = 171
+swing_count = 0
+while yards != 0:
+    club_choice = input("Choose your club: Driver, Iron, or Putter")
+    club_choice.upper()
+    if club_choice == "Driver":
+            swing = random.randint(125, 251)
+            yards = abs(yards - swing)
+            print(yards)
+
+    elif club_choice == "Iron":
+            swing = random.randint(75, 201)
+            yards = abs(yards - swing)
+            print(yards)
+
+    elif club_choice == "Putter":
+            swing = random.randint(1, 26)
+            yards = abs((yards - swing) * 3)
+            print(yards)
+    else:
+            try_again = input(
+                "Invalid choice. Please choose Driver, Iron, or Putter")
+    swing_count = swing_count + 1
+    print(swing_count)
+
+
+# Hole 9
+yards = 283
+swing_count = 0
+while yards != 0:
+    club_choice = input("Choose your club: Driver, Iron, or Putter")
+    club_choice.upper()
+    if club_choice == "Driver":
+            swing = random.randint(125, 251)
+            yards = abs(yards - swing)
+            print(yards)
+
+    elif club_choice == "Iron":
+            swing = random.randint(75, 201)
+            yards = abs(yards - swing)
+            print(yards)
+
+    elif club_choice == "Putter":
+            swing = random.randint(1, 26)
+            yards = abs((yards - swing) * 3)
+            print(yards)
+    else:
+            try_again = input(
+                "Invalid choice. Please choose Driver, Iron, or Putter")
+    swing_count = swing_count + 1
+    print(swing_count)
+
