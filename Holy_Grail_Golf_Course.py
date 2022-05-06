@@ -44,7 +44,9 @@ while True:
             exit()
 
         else:
-            try_again = print("Invalid choice. ")
+            print("Invalid choice. ")
+            return drive(yards)
+
         while yards > 45:
             club_choice = input(
                 "Choose your club: Wedge, Iron, or Exit. ").lower()
